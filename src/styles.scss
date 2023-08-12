@@ -1,8 +1,8 @@
 // ----------------------------
 // VARIABLES
 // ----------------------------
-$maincolor: black;
-$contrastcolor: white;
+$maincolor: greenyellow;
+$contrastcolor: plum;
 
 @mixin white-text-black-bg {
   color: $contrastcolor;
@@ -12,6 +12,7 @@ $contrastcolor: white;
 @mixin black-text-white-bg {
   color: $maincolor;
   background-color: $contrastcolor;
+  
 }
 
 // -----------------------------
@@ -28,4 +29,23 @@ nav {
         margin: 10px;
         font-size: large;
     }
+}
+
+h2{
+    text-align: center;
+    color: crimson;
+}
+
+form{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: $maincolor;
+}
+
+h3{
+    text-align: center;
+    color: $maincolor;
 }
